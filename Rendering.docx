@@ -5,7 +5,7 @@ When your application runs, React takes these components and renders them into t
 React uses a concept called the "Virtual DOM" to optimize rendering. The Virtual DOM is an abstraction that represents the actual DOM elements in a more efficient way. When the state or props of a component change, React doesn't immediately update the real DOM. Instead, it first updates the Virtual DOM and performs a "diffing" process to identify the minimal set of changes needed to update the real DOM. This minimizes the actual DOM manipulation and makes the application more efficient.
 
 In summary, rendering in React refers to the process of converting your component hierarchy into visible UI elements on the screen using the Virtual DOM and efficient DOM manipulation techniques to minimize the performance impact of updates.
-
+ 
 
 
 
